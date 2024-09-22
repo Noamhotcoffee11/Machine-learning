@@ -43,10 +43,10 @@ results_df = pd.DataFrame()
 
 # Define parameter lists
 neurons_list = [15, 30, 100]
-activations = ['sigmoid']
+activations = ['sigmoid','relu','leaky_relu']
 learning_rates = [0.1, 3.0]
 batch_size = 16
-epoch = [10, 30]  
+epoch = [10, 30,50]  
 
 # Train each model and store the results
 for Neurons in neurons_list:
